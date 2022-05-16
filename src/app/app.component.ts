@@ -47,7 +47,7 @@ import {Router} from '@angular/router';
       </ul>
       <div class="card-body">
         <button type="button" class="btn btn-secondary"><a href="#" class="card-link" style="text-decoration: none; color:#fff">Ссылки</a></button>
-        <button type="button" class="btn btn-secondary"><a href="korp1.html" routerLink="korp1.html" class="card-link" style="text-decoration: none; color:#fff">Подробности</a></button>
+        <button type="button" class="btn btn-secondary"><a href="№" class="card-link" style="text-decoration: none; color:#fff">Подробности</a></button>
       </div>
     </div>
 
