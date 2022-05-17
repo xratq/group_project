@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { ForkComponent } from './fork/fork.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 const appRoutes: Routes =[
-    { path: '', component: AppComponent},
+    {  path: '', component: AppComponent },
     { path: 'korp1', component: ForkComponent },
     { path: '**', component: NotFoundComponent }
 ];
