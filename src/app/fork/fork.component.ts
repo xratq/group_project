@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
-  selector: 'app-fork',
+  selector: 'fork',
   templateUrl: './fork.component.html',
   styleUrls: ['./fork.component.scss']
 })
-export class ForkComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class ForkComponent{}
