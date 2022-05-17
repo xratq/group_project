@@ -3,8 +3,7 @@ import {Router} from '@angular/router';
 
 @Component({
     selector: 'my-app',
-    template: `
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" style="padding-left: 10px">
+    template: `<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" style="padding-left: 10px">
       <h4 id="scrollspyHeading1">Главное</h4>
       <p>Этот сайт разработан для просмотра и отслеживания......</p>
       <h4 id="scrollspyHeading2">Что можно здесь увидеть</h4>
@@ -149,6 +148,11 @@ import {Router} from '@angular/router';
       </div>
     </div>
     </div>
+<<<<<<< HEAD
             <router-outlet></router-outlet>`
+=======
+          <router-outlet></router-outlet>`,
+    styleUrls: ['./app.component.scss']
+>>>>>>> d6b6d206317cc03e34e79a61a27d86033d36e3ec
 })
 export class AppComponent {}
