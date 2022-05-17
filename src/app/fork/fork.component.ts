@@ -6,4 +6,10 @@ import {Router} from '@angular/router';
   templateUrl: './fork.component.html',
   styleUrls: ['./fork.component.scss']
 })
-export class ForkComponent{}
+export class ForkComponent{
+  constructor(private router: Router){}
+    goHome(){
+
+        this.router.navigate(['/']);
+    }
+}
